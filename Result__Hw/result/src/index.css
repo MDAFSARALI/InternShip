@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #cdc3c3;
+}
+.result{
+  width: 60vw;
+  background-color: #fff;
+  margin: 5px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.img{
+  height: 100px;
+  float: left;
+}
+.logo{
+  display: flex;
+  justify-content: space-evenly;
+}
+.board h3{
+  color: rgb(62, 62, 189);
+}
+.mainContent{
+  max-width: 80%;
+  border: 2px solid rgb(79, 73, 73);
+  margin: 5px auto;
+}
+.personal h2{
+  background-color: rgb(62, 62, 189);
+  color: white;
+  padding: 5px 0;
+}
+.roll {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  font-weight: bold;
+  height: 30px;
+  align-items: center;
+}
+.marksDetails{
+  justify-content: space-between;
+}
+table{
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+th{
+  justify-content: space-between;
+  align-items: center;
+}
+td{
+  justify-content: space-between;
+}
+.mainFinal{
+  justify-content: space-between;
+}
+b{
+  font-size: large;
+}
+.abb{
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
